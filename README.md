@@ -37,28 +37,6 @@ A secure full-stack document upload and management portal developed for DRDO/DRD
 - JWT (authentication)
 - DRONA (intranet deployment)
 
-### Project Structure
--├── client/ # React frontend
--│ ├── public/
--│ └── src/
--│ ├── api/ # Axios instance
--│ ├── components/ # Reusable UI components
--│ └── pages/ # Page views
--│
--├── server/ # Express + Node.js backend
--│ ├── routes/ # API routes (users, orders, divisions)
--│ ├── uploads/ # Static file storage for attachments
--│ ├── middlewares/ # Auth and validation middleware
--│ └── index.js # Server entry point
--│
--├── prisma/ # Prisma schema & migration files
--│ ├── schema.prisma
--│ └── seed.js
--│
--├── .env # Environment variables
--├── package.json # Project metadata
--└── README.md # Project documentation
-
 ### Deployment
 Deployed on DRONA — DRDO’s secure intranet server.
 
