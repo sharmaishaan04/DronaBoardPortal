@@ -1,0 +1,13 @@
+{
+  "name": "notice-board.bk2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+     "start": "concurrently \"node BE/src/index.js\" \"npx serve -s FE/dist -p 10300\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
